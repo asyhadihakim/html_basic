@@ -191,6 +191,8 @@ body {
 .nav-box {
   display: flex;
   justify-content: flex-end;
+  padding: 20px;
+  gap: 10px;
 }
 
 .people-course {
@@ -260,14 +262,14 @@ body {
   padding: 25px;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
 }
 
-.avail-left {
+.avail {
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  width: 450px;
 }
 
 .avail-right {
@@ -275,17 +277,37 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  gap: 20px;
+  width: 350px;
 }
 
 .box-best {
-  padding: 2px;
-  width: 150px;
-  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
+  box-shadow: 10px 10px 10px #f5f5f5;
+  width: 250px;
+}
+
+.box-img {
+}
+
+.box-img img {
+  width: 250px;
+}
+
+.box-img h5 {
+  position: relative;
+  color: #545be8;
+  top: 30px;
+  left: 10px;
+}
+
+.box-img h4 {
+  position: relative;
+  color: white;
+  bottom: 30px;
+  left: 160px;
+  font-weight: bold;
 }
 
 .box-best p {
@@ -300,14 +322,60 @@ body {
 
 .testimonial {
   background-color: #ffffff;
+  align-items: center;
 }
 
 .container-testimonial {
   display: flex;
+  flex-direction: column;
   max-width: 1000px;
   margin: 0 auto;
   padding: 25px;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+}
+
+.container-testimonial p:first-child {
+  color: #0d1222;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testi-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.testi-box {
+  margin: 0 auto;
+  width: 506.3px;
+  height: 200.91px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 10px 10px #f5f5f5;
+}
+
+.testi-corner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.testi-user {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 30px;
+}
+
+.testi-star {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 30px;
+}
+
+.testi-box p {
+  padding: 5px 30px;
+  text-align: justify;
 }
