@@ -268,15 +268,15 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 450px;
+  width: 600px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .avail-right {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   width: 350px;
 }
 
@@ -318,6 +318,7 @@ body {
 .box-best p span {
   color: blue;
   font-size: 8px;
+  justify-content: flex-end;
 }
 
 .testimonial {
@@ -378,4 +379,83 @@ body {
 .testi-box p {
   padding: 5px 30px;
   text-align: justify;
+}
+
+.footer-container {
+  background-color: #393e46;
+}
+
+.footer-wrap {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.footer-profil {
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  gap: 20px;
+}
+
+.footer-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.footer-home p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.footer-course p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.footer-article p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.footer-contact p:first-child {
+  font-size: 16px;
+  font-weight: bold;
 }
