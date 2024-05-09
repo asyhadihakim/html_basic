@@ -440,7 +440,7 @@ body {
   display: flex;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 50px;
   justify-content: space-between;
   gap: 10px;
   color: white;
@@ -451,9 +451,27 @@ body {
   display: flex;
   flex-direction: column;
   width: 450px;
+  gap: 40px;
 }
 
-.footer-profil {
+.footer-profil img {
+  width: 200px;
+}
+
+.footer-profil p {
+  text-align: justify;
+}
+
+.footer-left p {
+  color: #dddddd;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-sosmed {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .footer-right {
@@ -466,47 +484,51 @@ body {
 .footer-home {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 30px;
+  padding: 20px;
+  gap: 10px;
 }
 
 .footer-home p:first-child {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .footer-course {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 30px;
+  padding: 20px;
+  gap: 10px;
 }
 
 .footer-course p:first-child {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .footer-article {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 30px;
+  padding: 20px;
+  gap: 10px;
 }
 
 .footer-article p:first-child {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 30px;
+  padding: 20px;
+  gap: 10px;
 }
 
 .footer-contact p:first-child {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
